@@ -1,0 +1,35 @@
+.synopsis {
+    margin: 20px 0;
+    background-color: #F8F8F8;
+    padding: 20px;
+    position: relative;
+    height: 450px;
+    box-shadow: 2px 2px 5px 0 white;
+
+    h2 {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    p {
+        color: #8e8e8e;
+        height: 380px;
+        overflow: scroll;
+        margin-bottom: 0;
+    }
+
+    div {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        bottom: -110px;
+        left: calc(50% - 90px);
+        padding: 30px;
+        padding-top: 10px;
+        text-align: center;
+        background-color: #F8F8F8;
+        border-radius: 0 0 100px 100px;
+        box-shadow: 2px 2px 5px 0 white;
+        margin-bottom: 20px;
+    }
+}

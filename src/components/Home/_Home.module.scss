@@ -1,0 +1,20 @@
+.title {
+    color: #FFF;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+}
+
+
+.cart {
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    font-family: initial;
+    img {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,30 @@
+/* .App {
+  text-align: center;
+}
+*/
+
+body {
+  background: rgb(174,188,191);
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(174,188,191,1) 0%, rgba(10,8,9,1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(174,188,191,1) 0%,rgba(10,8,9,1) 100%);
+  background: radial-gradient(ellipse at center,  rgba(174,188,191,1) 0%,rgba(10,8,9,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 );
+}
+
+.App {
+  // max-width: 1200;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+}
