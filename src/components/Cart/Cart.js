@@ -25,8 +25,6 @@ class Cart extends Component {
         offer = this.helper.calculOffer(totalPrice, offers),
         total = totalPrice - offer
 
-    console.log(offer)
-
     this.setState({ totalPrice: totalPrice, offer: offer, total: total, loader: false });
   }
 
