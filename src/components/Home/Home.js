@@ -4,6 +4,7 @@ import Helper from '../../helpers/Helper'
 import { Container, Row, Col } from 'reactstrap'
 import styles from './_Home.module.scss'
 import iconCart from '../../assets/img/cart.svg'
+import iconSearch from '../../assets/img/search.svg'
 import List from '../Books/List';
 import Detail from '../Books/Detail';
 import Cart from '../Cart/Cart';
@@ -20,7 +21,8 @@ class Home extends Component {
       book: {},
       cart: [],
       detailIsOpen: false,
-      cartIsOpen: false
+      cartIsOpen: false,
+      search: ''
     }
   }
 
@@ -63,7 +65,21 @@ class Home extends Component {
     }
   }
 
+  handleChangeSearch(e) {
+    this.setState({search: e.target.value})
+  }
+
+  filterBooks() {
+    let books = this.state.books
+
+    if (this.state.search !== '')
+      books = this.state.books.filter((book) => (book.title.toLowerCase().includes(this.state.search)))
+
+    return books
+  }
+
   render () {
+    let books = this.filterBooks()
     return (
       <React.Fragment>
       { this.state.loader ?
@@ -80,6 +96,15 @@ class Home extends Component {
               </h1>
             </Col>
           </Row>
+          { (!this.state.cartIsOpen && !this.state.detailIsOpen) &&
+            <Row>
+              <Col>
+                <div className={styles.search}>
+                  <input type="text" value={this.state.search} onChange={this.handleChangeSearch.bind(this)} placeholder="Search your book"/>
+                </div>
+              </Col>
+            </Row>
+          }
           { this.state.cartIsOpen ?
             <Cart
               cart={this.state.cart}
@@ -94,7 +119,7 @@ class Home extends Component {
               />
               :
               <List
-                books={this.state.books}
+                books={books}
                 add={this.handleClickAddCart.bind(this)}
                 goToDetail={this.handleClickDetail.bind(this)}
               />
