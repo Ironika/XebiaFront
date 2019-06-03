@@ -4,7 +4,6 @@ import Helper from '../../helpers/Helper'
 import { Container, Row, Col } from 'reactstrap'
 import styles from './_Home.module.scss'
 import iconCart from '../../assets/img/cart.svg'
-import iconSearch from '../../assets/img/search.svg'
 import List from '../Books/List';
 import Detail from '../Books/Detail';
 import Cart from '../Cart/Cart';
