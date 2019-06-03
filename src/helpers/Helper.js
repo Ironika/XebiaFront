@@ -1,30 +1,16 @@
+const axios = require('axios');
+
 class Helper {
 
-    async getBooks () {
-      let apiUrl = "http://henri-potier.xebia.fr/books",
-          response,
-          json
-
-      try {
-        response = await fetch(apiUrl)
-
-        if (!response.ok) {
-          throw Error(response.statusText);
-        }
-
-        json = await response.json();
-
-        return json
-      } catch (error) {
-        console.log(error);
-      }
+    async getBooks (cancel) {
+      let response = await axios.get('http://henri-potier.xebia.fr/books')
+      return response.data
     }
 
     async getOffers (cart) {
       let apiUrl = "http://henri-potier.xebia.fr/books/",
-          response,
-          json,
-          isbns = ''
+          isbns = '',
+          response
 
       for(let key in cart) {
         if(Number(key) === cart.length - 1) {
@@ -34,19 +20,9 @@ class Helper {
         }
       }
 
-      try {
-        response = await fetch(apiUrl + isbns)
+      response = await axios.get(apiUrl + isbns)
 
-        if (!response.ok) {
-          throw Error(response.statusText);
-        }
-
-        json = await response.json();
-
-        return json.offers
-      } catch (error) {
-        console.log(error);
-      }
+      return response.data.offers
     }
 
     calculOffer(totalPrice, offers) {
@@ -107,7 +83,7 @@ class Helper {
         total += Number(cart[key].quantity) * Number(cart[key].price)
       }
 
-      return total
+      return Number(total)
     }
 
     getTotalItemInCart(cart) {
@@ -117,7 +93,7 @@ class Helper {
         total += Number(cart[key].quantity)
       }
 
-      return total
+      return Number(total)
     }
 }
 

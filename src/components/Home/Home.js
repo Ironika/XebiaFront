@@ -17,6 +17,7 @@ class Home extends Component {
     this.state = {
       loader: true,
       books: [],
+      booksFiltered: [],
       book: {},
       cart: [],
       detailIsOpen: false,
@@ -28,7 +29,7 @@ class Home extends Component {
   async componentDidMount () {
     let books = await this.helper.getBooks()
 
-    this.setState({ loader: false, books: books });
+    this.setState({ loader: false, books: books, booksFiltered: books });
   }
 
   handleClickAddCart(book, e) {
@@ -65,20 +66,20 @@ class Home extends Component {
   }
 
   handleChangeSearch(e) {
-    this.setState({search: e.target.value})
+    let books = this.filterBooks(e.target.value)
+    this.setState({search: e.target.value, booksFiltered: books})
   }
 
-  filterBooks() {
+  filterBooks(search) {
     let books = this.state.books
 
-    if (this.state.search !== '')
-      books = this.state.books.filter((book) => (book.title.toLowerCase().includes(this.state.search)))
+    if (search !== '')
+      books = this.state.books.filter((book) => (book.title.toLowerCase().includes(search)))
 
     return books
   }
 
   render () {
-    let books = this.filterBooks()
     return (
       <React.Fragment>
       { this.state.loader ?
@@ -86,13 +87,11 @@ class Home extends Component {
         <Container>
           <Row>
             <Col>
-              <h1 className={styles.title}>
-                Henri Potier
-                <span className={styles.cart} onClick={this.handleClickCart.bind(this)}>
-                  <img src={iconCart} alt="icon cart"/>
-                  {this.helper.getTotalItemInCart(this.state.cart)}
-                </span>
-              </h1>
+              <h1 className={styles.title}>Henri Potier</h1>
+              <span className={styles.cart} onClick={this.handleClickCart.bind(this)}>
+                <img src={iconCart} alt="icon cart"/>
+                <span>{this.helper.getTotalItemInCart(this.state.cart)}</span>
+              </span>
             </Col>
           </Row>
           { (!this.state.cartIsOpen && !this.state.detailIsOpen) &&
@@ -118,7 +117,7 @@ class Home extends Component {
               />
               :
               <List
-                books={books}
+                books={this.state.booksFiltered}
                 add={this.handleClickAddCart.bind(this)}
                 goToDetail={this.handleClickDetail.bind(this)}
               />

@@ -35,7 +35,7 @@ class Cart extends Component {
           <Loader /> :
             <Row>
                 <Col xs={12}>
-                    <div className={styles.back} onClick={this.props.back.bind(this, 'cart')}>
+                    <div className={styles.back} onClick={this.props.back && this.props.back.bind(this, 'cart')}>
                         <img src={iconArrow} alt="back"/>
                         <span>Retour</span>
                     </div>
@@ -53,7 +53,7 @@ class Cart extends Component {
                                 </tr>
                             </thead>
                             <tbody>
-                                {this.props.cart.map((book, index) => (
+                                {this.props.cart && this.props.cart.map((book, index) => (
                                     <tr key={index} className={styles.cartItem}>
                                         <td>{book.title}</td>
                                         <td>{book.price}€</td>
