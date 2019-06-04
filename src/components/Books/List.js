@@ -4,15 +4,18 @@ import { Row, Col } from 'reactstrap'
 
 const List = (props) => (
     <Row>
-        {props.books && props.books.map((book, index) => (
-        <Col xs={12} sm={6} md={4} lg={3} key={index}>
-            <BookCard
-                book={book}
-                add={props.add.bind(this)}
-                goToDetail={props.goToDetail.bind(this)}
-            />
-        </Col>
-        ))}
+        {props.books  && props.books.length === 0 ?
+            <div style={{color: 'white'}}>Aucun Résultats</div> :
+            props.books.map((book, index) => (
+                <Col xs={12} sm={6} md={4} lg={3} key={index}>
+                    <BookCard
+                        book={book}
+                        add={props.add.bind(this)}
+                        goToDetail={props.goToDetail.bind(this)}
+                    />
+                </Col>
+            )
+        )}
     </Row>
 )
 
