@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Install nodes Modules for run the projects
+Install nodes Modules for run the project
 
 ### `npm start`
 
