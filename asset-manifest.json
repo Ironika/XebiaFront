@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.208411f7.chunk.css",
-    "main.js": "/myapp/static/js/main.8073d1e5.chunk.js",
-    "main.js.map": "/myapp/static/js/main.8073d1e5.chunk.js.map",
-    "runtime~main.js": "/myapp/static/js/runtime~main.e4f53ea3.js",
-    "runtime~main.js.map": "/myapp/static/js/runtime~main.e4f53ea3.js.map",
-    "static/css/2.266e55a5.chunk.css": "/myapp/static/css/2.266e55a5.chunk.css",
-    "static/js/2.b27fad40.chunk.js": "/myapp/static/js/2.b27fad40.chunk.js",
-    "static/js/2.b27fad40.chunk.js.map": "/myapp/static/js/2.b27fad40.chunk.js.map",
-    "index.html": "/myapp/index.html",
-    "precache-manifest.e52edf28d28a3008b7dd1191259a211e.js": "/myapp/precache-manifest.e52edf28d28a3008b7dd1191259a211e.js",
-    "service-worker.js": "/myapp/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/myapp/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.208411f7.chunk.css.map": "/myapp/static/css/main.208411f7.chunk.css.map",
-    "static/media/arrow.svg": "/myapp/static/media/arrow.dc9e5ab2.svg",
-    "static/media/cart.svg": "/myapp/static/media/cart.a9de90c1.svg",
-    "static/media/loader.gif": "/myapp/static/media/loader.e5e401e3.gif",
-    "static/media/_Home.module.scss": "/myapp/static/media/search.7c4cfb2a.svg"
+    "main.css": "/xebiapotier/static/css/main.15ba1505.chunk.css",
+    "main.js": "/xebiapotier/static/js/main.6403cc8a.chunk.js",
+    "main.js.map": "/xebiapotier/static/js/main.6403cc8a.chunk.js.map",
+    "runtime~main.js": "/xebiapotier/static/js/runtime~main.f78457d4.js",
+    "runtime~main.js.map": "/xebiapotier/static/js/runtime~main.f78457d4.js.map",
+    "static/css/2.266e55a5.chunk.css": "/xebiapotier/static/css/2.266e55a5.chunk.css",
+    "static/js/2.b27fad40.chunk.js": "/xebiapotier/static/js/2.b27fad40.chunk.js",
+    "static/js/2.b27fad40.chunk.js.map": "/xebiapotier/static/js/2.b27fad40.chunk.js.map",
+    "index.html": "/xebiapotier/index.html",
+    "precache-manifest.836d5e0a75ddf75d06be371b09f1acb4.js": "/xebiapotier/precache-manifest.836d5e0a75ddf75d06be371b09f1acb4.js",
+    "service-worker.js": "/xebiapotier/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/xebiapotier/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.15ba1505.chunk.css.map": "/xebiapotier/static/css/main.15ba1505.chunk.css.map",
+    "static/media/arrow.svg": "/xebiapotier/static/media/arrow.dc9e5ab2.svg",
+    "static/media/cart.svg": "/xebiapotier/static/media/cart.a9de90c1.svg",
+    "static/media/loader.gif": "/xebiapotier/static/media/loader.e5e401e3.gif",
+    "static/media/_Home.module.scss": "/xebiapotier/static/media/search.7c4cfb2a.svg"
   }
 }
