@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "467ffa4bd077493347c5ed4af814bc51",
+    "revision": "ad8a9b2309ebd4d1807d896b02c4bb00",
     "url": "/XebiaFront/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/XebiaFront/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "e62342ac44737c8eab0c",
-    "url": "/XebiaFront/static/css/main.d9981cb6.chunk.css"
+    "revision": "db9153e96898504c4693",
+    "url": "/XebiaFront/static/css/main.ee487494.chunk.css"
   },
   {
     "revision": "704b0755172969e0fb46",
     "url": "/XebiaFront/static/js/2.b27fad40.chunk.js"
   },
   {
-    "revision": "e62342ac44737c8eab0c",
+    "revision": "db9153e96898504c4693",
     "url": "/XebiaFront/static/js/main.5c6581c6.chunk.js"
   },
   {

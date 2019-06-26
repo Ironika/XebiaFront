@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/XebiaFront/static/css/main.d9981cb6.chunk.css",
+    "main.css": "/XebiaFront/static/css/main.ee487494.chunk.css",
     "main.js": "/XebiaFront/static/js/main.5c6581c6.chunk.js",
     "main.js.map": "/XebiaFront/static/js/main.5c6581c6.chunk.js.map",
     "runtime~main.js": "/XebiaFront/static/js/runtime~main.85f8f8b0.js",
@@ -9,10 +9,10 @@
     "static/js/2.b27fad40.chunk.js": "/XebiaFront/static/js/2.b27fad40.chunk.js",
     "static/js/2.b27fad40.chunk.js.map": "/XebiaFront/static/js/2.b27fad40.chunk.js.map",
     "index.html": "/XebiaFront/index.html",
-    "precache-manifest.f0a9d6d7e216f206319bbdc401610871.js": "/XebiaFront/precache-manifest.f0a9d6d7e216f206319bbdc401610871.js",
+    "precache-manifest.effbe2b2c6776b632cdb0a7f9881374a.js": "/XebiaFront/precache-manifest.effbe2b2c6776b632cdb0a7f9881374a.js",
     "service-worker.js": "/XebiaFront/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/XebiaFront/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.d9981cb6.chunk.css.map": "/XebiaFront/static/css/main.d9981cb6.chunk.css.map",
+    "static/css/main.ee487494.chunk.css.map": "/XebiaFront/static/css/main.ee487494.chunk.css.map",
     "static/media/arrow.svg": "/XebiaFront/static/media/arrow.dc9e5ab2.svg",
     "static/media/cart.svg": "/XebiaFront/static/media/cart.a9de90c1.svg",
     "static/media/loader.gif": "/XebiaFront/static/media/loader.e5e401e3.gif",
