@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/harrypotter/static/css/main.3879326e.chunk.css",
-    "main.js": "/harrypotter/static/js/main.01b52c22.chunk.js",
-    "main.js.map": "/harrypotter/static/js/main.01b52c22.chunk.js.map",
-    "runtime~main.js": "/harrypotter/static/js/runtime~main.a63ceba1.js",
-    "runtime~main.js.map": "/harrypotter/static/js/runtime~main.a63ceba1.js.map",
-    "static/css/2.266e55a5.chunk.css": "/harrypotter/static/css/2.266e55a5.chunk.css",
-    "static/js/2.b27fad40.chunk.js": "/harrypotter/static/js/2.b27fad40.chunk.js",
-    "static/js/2.b27fad40.chunk.js.map": "/harrypotter/static/js/2.b27fad40.chunk.js.map",
-    "index.html": "/harrypotter/index.html",
-    "precache-manifest.68f608002beeb7df1b7340b165379f73.js": "/harrypotter/precache-manifest.68f608002beeb7df1b7340b165379f73.js",
-    "service-worker.js": "/harrypotter/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/harrypotter/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.3879326e.chunk.css.map": "/harrypotter/static/css/main.3879326e.chunk.css.map",
-    "static/media/arrow.svg": "/harrypotter/static/media/arrow.dc9e5ab2.svg",
-    "static/media/cart.svg": "/harrypotter/static/media/cart.a9de90c1.svg",
-    "static/media/loader.gif": "/harrypotter/static/media/loader.e5e401e3.gif",
-    "static/media/_Home.module.scss": "/harrypotter/static/media/search.7c4cfb2a.svg"
+    "main.css": "/XebiaFront/static/css/main.d9981cb6.chunk.css",
+    "main.js": "/XebiaFront/static/js/main.5c6581c6.chunk.js",
+    "main.js.map": "/XebiaFront/static/js/main.5c6581c6.chunk.js.map",
+    "runtime~main.js": "/XebiaFront/static/js/runtime~main.85f8f8b0.js",
+    "runtime~main.js.map": "/XebiaFront/static/js/runtime~main.85f8f8b0.js.map",
+    "static/css/2.266e55a5.chunk.css": "/XebiaFront/static/css/2.266e55a5.chunk.css",
+    "static/js/2.b27fad40.chunk.js": "/XebiaFront/static/js/2.b27fad40.chunk.js",
+    "static/js/2.b27fad40.chunk.js.map": "/XebiaFront/static/js/2.b27fad40.chunk.js.map",
+    "index.html": "/XebiaFront/index.html",
+    "precache-manifest.f0a9d6d7e216f206319bbdc401610871.js": "/XebiaFront/precache-manifest.f0a9d6d7e216f206319bbdc401610871.js",
+    "service-worker.js": "/XebiaFront/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/XebiaFront/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.d9981cb6.chunk.css.map": "/XebiaFront/static/css/main.d9981cb6.chunk.css.map",
+    "static/media/arrow.svg": "/XebiaFront/static/media/arrow.dc9e5ab2.svg",
+    "static/media/cart.svg": "/XebiaFront/static/media/cart.a9de90c1.svg",
+    "static/media/loader.gif": "/XebiaFront/static/media/loader.e5e401e3.gif",
+    "static/media/_Home.module.scss": "/XebiaFront/static/media/search.7c4cfb2a.svg"
   }
 }
