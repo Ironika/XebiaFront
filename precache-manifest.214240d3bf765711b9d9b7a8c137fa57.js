@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36bc38813e2a10214f69529f07a1c1c9",
+    "revision": "fd4e5fab904117bb78f9472ba14c5c36",
     "url": "/xebiapotier/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebiapotier/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "f3d5f42efc30a009f0e7",
-    "url": "/xebiapotier/static/css/main.15ba1505.chunk.css"
+    "revision": "65df50951db83994f886",
+    "url": "/xebiapotier/static/css/main.202c8365.chunk.css"
   },
   {
     "revision": "704b0755172969e0fb46",
     "url": "/xebiapotier/static/js/2.b27fad40.chunk.js"
   },
   {
-    "revision": "f3d5f42efc30a009f0e7",
-    "url": "/xebiapotier/static/js/main.e2c4c829.chunk.js"
+    "revision": "65df50951db83994f886",
+    "url": "/xebiapotier/static/js/main.378600e4.chunk.js"
   },
   {
     "revision": "0895427b66311557d521",
