@@ -3,7 +3,7 @@ import { Loader } from '../../modules/Loader/Loader'
 import { Row, Col } from 'reactstrap'
 import styles from './_Cart.module.scss'
 import iconArrow from '../../assets/img/arrow.svg'
-import Helper from '../../helpers/Helper'
+import { getOffers, getTotalInCart, calculOffer } from '../../helpers/Helper'
 
 class Cart extends Component {
   constructor (props) {
@@ -15,14 +15,12 @@ class Cart extends Component {
         offer: 0,
         total: 0
     }
-
-    this.helper = new Helper()
   }
 
   async componentDidMount () {
-    let totalPrice = this.helper.getTotalInCart(this.props.cart),
-        offers = await this.helper.getOffers(this.props.cart),
-        offer = this.helper.calculOffer(totalPrice, offers),
+    let totalPrice = getTotalInCart(this.props.cart),
+        offers = await getOffers(this.props.cart),
+        offer = calculOffer(totalPrice, offers),
         total = totalPrice - offer
 
     this.setState({ totalPrice: totalPrice, offer: offer, total: total, loader: false });
@@ -35,7 +33,7 @@ class Cart extends Component {
           <Loader /> :
             <Row>
                 <Col xs={12}>
-                    <div className={styles.back} onClick={this.props.back && this.props.back.bind(this, 'cart')}>
+                    <div className={styles.back} onClick={this.props.back && this.props.back}>
                         <img src={iconArrow} alt="back"/>
                         <span>Retour</span>
                     </div>

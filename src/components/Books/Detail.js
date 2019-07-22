@@ -8,7 +8,7 @@ import iconArrow from '../../assets/img/arrow.svg'
 const Detail = (props) => (
     <Row>
         <Col xs={12}>
-            <div className={styles.back} onClick={props.back.bind(this, 'detail')}>
+            <div className={styles.back} onClick={props.back}>
                 <img src={iconArrow} alt="back"/>
                 <span>Retour</span>
             </div>
@@ -16,14 +16,14 @@ const Detail = (props) => (
         <Col xs={12} sm={4}>
             <BookCard
                 book={props.book}
-                add={props.add.bind(this)}
+                add={props.add}
                 full={true}
             />
         </Col>
         <Col xs={12} sm={8}>
             <DetailCard
                 book={props.book}
-                add={props.add.bind(this)}
+                add={props.add}
             />
         </Col>
     </Row>
