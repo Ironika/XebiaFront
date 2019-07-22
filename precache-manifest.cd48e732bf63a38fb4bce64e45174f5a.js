@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad8a9b2309ebd4d1807d896b02c4bb00",
+    "revision": "2ba3b4c701c744df3fce138083176ed1",
     "url": "/XebiaFront/index.html"
   },
   {
-    "revision": "704b0755172969e0fb46",
+    "revision": "5a3d93607ca49f3d9c80",
     "url": "/XebiaFront/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "db9153e96898504c4693",
-    "url": "/XebiaFront/static/css/main.ee487494.chunk.css"
+    "revision": "33dbf8de584989ab773f",
+    "url": "/XebiaFront/static/css/main.20cd26f1.chunk.css"
   },
   {
-    "revision": "704b0755172969e0fb46",
-    "url": "/XebiaFront/static/js/2.b27fad40.chunk.js"
+    "revision": "5a3d93607ca49f3d9c80",
+    "url": "/XebiaFront/static/js/2.bac4f8ab.chunk.js"
   },
   {
-    "revision": "db9153e96898504c4693",
-    "url": "/XebiaFront/static/js/main.5c6581c6.chunk.js"
+    "revision": "33dbf8de584989ab773f",
+    "url": "/XebiaFront/static/js/main.592a0db2.chunk.js"
   },
   {
     "revision": "848f34390d86e29560f4",
