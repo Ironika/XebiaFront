@@ -81,7 +81,7 @@ class Home extends Component {
 
   render () {
     return (
-      <React.Fragment>
+      <>
       { this.state.loader ?
         <Loader /> :
         <Container>
@@ -124,7 +124,7 @@ class Home extends Component {
           }
         </Container>
         }
-      </React.Fragment>
+      </>
     )
   }
 }

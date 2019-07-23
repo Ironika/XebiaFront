@@ -28,7 +28,7 @@ class Cart extends Component {
 
   render () {
     return (
-        <React.Fragment>
+        <>
         { this.state.loader ?
           <Loader /> :
             <Row>
@@ -83,7 +83,7 @@ class Cart extends Component {
                 </Col>
             </Row>
         }
-        </React.Fragment>
+        </>
     )
   }
 }
