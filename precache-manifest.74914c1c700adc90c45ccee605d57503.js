@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ba3b4c701c744df3fce138083176ed1",
+    "revision": "c44c502bdf4b4585c7c9460369a58d48",
     "url": "/XebiaFront/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/XebiaFront/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "33dbf8de584989ab773f",
+    "revision": "4b562c5048bbad5604de",
     "url": "/XebiaFront/static/css/main.20cd26f1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/XebiaFront/static/js/2.bac4f8ab.chunk.js"
   },
   {
-    "revision": "33dbf8de584989ab773f",
-    "url": "/XebiaFront/static/js/main.592a0db2.chunk.js"
+    "revision": "4b562c5048bbad5604de",
+    "url": "/XebiaFront/static/js/main.0c7ed76d.chunk.js"
   },
   {
     "revision": "848f34390d86e29560f4",
