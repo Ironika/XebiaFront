@@ -21,9 +21,10 @@ class Cart extends Component {
     let totalPrice = getTotalInCart(this.props.cart),
         offers = await getOffers(this.props.cart),
         offer = calculOffer(totalPrice, offers),
-        total = totalPrice - offer
+        total = totalPrice - offer,
+        loader = false
 
-    this.setState({ totalPrice: totalPrice, offer: offer, total: total, loader: false });
+    this.setState({ totalPrice, offer, total, loader });
   }
 
   render () {

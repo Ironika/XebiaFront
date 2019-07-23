@@ -25,9 +25,11 @@ class Home extends Component {
   }
 
   async componentDidMount () {
-    let books = await getBooks()
+    let books = await getBooks(),
+        loader = false,
+        booksFiltered = books
 
-    this.setState({ loader: false, books: books, booksFiltered: books });
+    this.setState({ loader, books, booksFiltered });
   }
 
   handleClickAddCart = (e) => {
@@ -47,27 +49,34 @@ class Home extends Component {
   }
 
   handleClickDetail = (e) => {
-    let book = JSON.parse(e.currentTarget.getAttribute('data-book'))
-    this.setState({detailIsOpen: true, book: book})
+    let book = JSON.parse(e.currentTarget.getAttribute('data-book')),
+        detailIsOpen = true
+    this.setState({detailIsOpen, book})
   }
 
   handleClickBack = () => {
-    this.setState({detailIsOpen: false, book: {}})
+    let detailIsOpen = false,
+        book = {}
+    this.setState({detailIsOpen, book})
   }
 
   handleClickBackCart = () => {
-    this.setState({cartIsOpen: false})
+    let cartIsOpen = false
+    this.setState({cartIsOpen})
   }
 
   handleClickCart = () => {
+    let cartIsOpen = false
     if(this.state.cart.length > 0) {
-      this.setState({cartIsOpen: true})
+      cartIsOpen = true
     }
+    this.setState({cartIsOpen})
   }
 
   handleChangeSearch = (e) => {
-    let books = this.filterBooks(e.target.value)
-    this.setState({search: e.target.value, booksFiltered: books})
+    let search = e.target.value,
+        booksFiltered = this.filterBooks(search)
+    this.setState({search, booksFiltered})
   }
 
   filterBooks = (search) => {
