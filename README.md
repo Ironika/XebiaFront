@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## You need to load blocked script because API isn't HTTPS
+You need to load blocked script because API isn't HTTPS
+
 Hosted on https://ironika.github.io/XebiaFront/index.html 
 
 ## Available Scripts
